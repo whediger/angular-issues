@@ -17,13 +17,14 @@ h1 {
 }
 
 #issuesContainer {
+  padding: 1%;
   margin-top: 2vh;
   margin-left: 2vh;
   height: 75vh;
   width: 75vw;
   border: 5px solid black;
   box-shadow: 2px 2px 2px black;
-  overflow: scroll;
+  overflow-y: scroll;
 
 }
 
@@ -32,7 +33,19 @@ h1 {
   margin-right: 1%;
   margin-top: 1%;
   padding: 1%;
-  width:100%;
+  font-family: sans-serif;
+  width:95%;
   height:auto;
   border: 2px solid black;
+}
+.issueKey {
+  color: blue;
+  font-weight: bolder;
+}
+.issueDiv h3, .issueDiv h2 {
+  margin-bottom: 1%;
+}
+.issueDiv h2 {
+  font-size: 1.5em;
+  font-weight: bold;
 }
