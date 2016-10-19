@@ -1,6 +1,5 @@
 h1 {
   position: absolute;
-  margin-top: 1%;
   margin-left: 1%;
   font-family: sans-serif;
   color: white;
@@ -8,9 +7,23 @@ h1 {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   position: static;
   height: 10vh;
   width: 100vw;
   background-color: darkblue;
   border-bottom: 5px solid black;
+}
+
+#issuesContainer {
+  margin-top: 2vh;
+  margin-left: 2vh;
+  height: 75vh;
+  width: 50vw;
+  border: 5px solid black;
+  border-radius: 10%;
+  box-shadow: 2px 2px 2px black;
+  overflow: scroll;
+
 }
