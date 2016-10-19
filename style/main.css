@@ -1,0 +1,16 @@
+h1 {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+  font-family: sans-serif;
+  color: white;
+  font-size: 3em;
+}
+
+.header {
+  position: static;
+  height: 10vh;
+  width: 100vw;
+  background-color: darkblue;
+  border-bottom: 5px solid black;
+}
